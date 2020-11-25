@@ -1,0 +1,182 @@
+img {
+  height:117.734px;
+  width:111px;
+}
+
+.logo-text{
+  font-family: 'Roboto Slab', serif;
+  font-color:#2a73cc;
+  font-weight:bold
+  font-size:5px;
+
+}
+
+.nav-link{
+  align:center;
+  color:white;
+}
+
+.nav-link:hover{
+  color:White;
+}
+
+.navbar{
+  background-color:#2a73cc;
+
+}
+
+.nav-item{
+  padding:0 20px;
+  font-family: OpenSans,Arial,sans-serif;
+}
+
+.navbar-toggler{
+  color:white;
+}
+
+.navbar-toggler-icon{
+  color:green;
+}
+
+
+img {
+  height:410px;
+}
+
+
+.img-logo{
+  height:117.734px;
+  width:111px;
+}
+
+.nba{
+  height:117.734px;
+  width:111px;
+  margin-left:537px;
+
+}
+
+.college-logo {
+  width:10%;
+  height:20%;
+}
+
+
+h2{
+  color:#2a73cc;
+  font-weight:bold;
+  font-size:30px;
+  font-family:serif-bold;
+  line-height:1.16;
+  margin-bottom:0.5rem;
+  margin-left:10px;
+}
+.font{
+  color:gray;
+  font-size:0.79rem;
+  font-family:OpenSans,Arial,sans-serif;
+  line-height:1.4;
+  margin-left:10px;
+  margin-bottom:2px;
+}
+
+.ftext{
+  font-size: 14px;
+  font-family: 'Work Sans',sans-serif;
+  
+}
+
+
+/* footer_start*/
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+section .section-title {
+    text-align: center;
+    color: #171717;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background:#171717 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+/* footer_start*/
+
+
+/* ============ only desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}
+/* ============ desktop view .end// ============ */
+.dropdown-large{ padding:200px; }
+
+@media all and (min-width: 992px) {
+	.dropdown-large{ min-width:500px; }
+}
